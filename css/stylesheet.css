@@ -30,6 +30,8 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 1em;
+    font-family: 'Wallpoet', cursive;
+    font-weight: 900;
 }
 
 button {
@@ -76,13 +78,18 @@ footer {
 }
 
 .equal-btn:hover {
-    background-color: rgb(39, 199, 39);
+    background-color: rgb(34, 166, 34);
 }
 
 .remove-btn:hover, .number-btn:hover, .operator-btn:hover, .equal-btn:hover, footer:hover {
     margin-top: -2px;
     transition: 0.2s;
 }
+
+/* .button-pressed {
+    margin-top: 2px;
+    transition: 0.2s;
+} */
 
 @media (max-height: 580px) {
     footer {
